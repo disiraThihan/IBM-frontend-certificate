@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header">
       <h1>Green Thumb Houseplants</h1>
       <nav>
-        <Link to="/IBM-frontend-certificate">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/products">Products</Link>
         <Link to="/cart" className="cart-link">
           🛒 <span className="cart-count">{totalItems}</span>

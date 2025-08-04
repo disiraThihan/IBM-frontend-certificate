@@ -12,7 +12,7 @@ const App = () => {
         <Header />
         <main>
           <Routes>
-            <Route path="/IBM-frontend-certificate" element={<LandingPage />} />
+            <Route path="/" element={<LandingPage />} />
             <Route path="/products" element={<ProductListing />} />
             <Route path="/cart" element={<ShoppingCart />} />
           </Routes>
